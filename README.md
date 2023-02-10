@@ -12,7 +12,7 @@ Note: open_pdk has to be installed last so it can correctly associate the xschem
 
 Open the terminal and execute the following command 
 
-'''
+"""
 
 $  git clone git://opencircuitdesign.com/magic
 $  cd magic
@@ -20,7 +20,7 @@ $	 ./configure
 $  make
 $  sudo make install
 
-'''
+"""
 
 More info can be found at http://opencircuitdesign.com/magic/index.html
 
@@ -28,28 +28,28 @@ More info can be found at http://opencircuitdesign.com/magic/index.html
 
 Open the terminal and execute the following commands
 
-'''
+"""
 $  git clone git://opencircuitdesign.com/netgen
 $  cd netgen
 $	./configure
 $  make
 $  sudo make install
-'''
+"""
 
 More info can be found at http://opencircuitdesign.com/netgen/index.html
 
 # Installing Xschem
 
-'''
+"""
 $  git clone https://github.com/StefanSchippers/xschem.git xschem_git
 $	./configure
 $  make
 $  sudo make install
-'''
+"""
 
 # Installing Ngspice
 
-'''
+"""
  $ tar -zxvf ngspice-37.tar.gz
  $ cd ngspice-37
  $ mkdir release
@@ -57,19 +57,19 @@ $  sudo make install
  $ ../configure  --with-x --with-readline=yes --disable-debug
  $ make
  $ sudo make install
-'''
+"""
 
 More info can be found at https://ngspice.sourceforge.io/index.html
 
 # Installing Open_PDK
 
-'''
+"""
 $  git clone git://opencircuitdesign.com/open_pdks
 $  open_pdks
 $	./configure --enable-sky130-pdk
 $  make
 $  sudo make install
-'''
+"""
 
 More information available at https://github.com/google/skywater-pdk
 
@@ -100,7 +100,7 @@ now no need to run the dc operation get the transient response
 
 the generated netlist
 
-'''
+"""
 For transient response
 
 ** sch_path: /home/vlsi-labs/Downloads/xschem_git/inverter/tb.sch
@@ -207,7 +207,7 @@ XM42 out VIN VCC VCC sky130_fd_pr__pfet_01v8 L=0.15 W='1 * 1 ' nf=1 ad='int((nf+
 .GLOBAL GND
 .end
 
-'''
+"""
 
 
 # Creating the layout 
